@@ -77,11 +77,10 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 var testArray = [2, 3, 4]; //eslint-disable-line
-
+var elem1 = sum(sum(a,b)[0],c)[0];
+var elem2 = testArray + ' was passed in as an array of numbers, and ' + sumArr + ' is their sum.';
 function sumArray(sumArr) { //eslint-disable-line
-
-
-    console.log();
+    return [elem1,elem2];
 }
 
 // Here is the test for sumArray(); uncomment it to run it
